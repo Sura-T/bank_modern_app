@@ -50,7 +50,6 @@ To get started with the Bank Modern App, follow these steps:
 ## Acknowledgments
 
 - Thanks to the ReactJS and Tailwind CSS communities for their excellent documentation and support.
-- Special thanks to Vite for providing a fast development experience.
 - Special thanks to JavaScript Mastery
 
 ---
