@@ -18,9 +18,11 @@ const Footer = () => (
 
       <div className="flex-[1.5] w-full flex flex-row justify-between flex-wrap md:mt-0 mt-10">
         {footerLinks.map((footerlink) => (
+          
           <div key={footerlink.title} className={`flex flex-col ss:my-0 my-4 min-w-[150px]`}>
             <h4 className="font-poppins font-medium text-[18px] leading-[27px] text-white">
               {footerlink.title}
+
             </h4>
             <ul className="list-none mt-4">
               {footerlink.links.map((link, index) => (
@@ -50,10 +52,14 @@ const Footer = () => (
             key={social.id}
             src={social.icon}
             alt={social.id}
+            
             className={`w-[21px] h-[21px] object-contain cursor-pointer ${
+
               index !== socialMedia.length - 1 ? "mr-6" : "mr-0"
             }`}
+
             onClick={() => window.open(social.link)}
+
           />
         ))}
       </div>
